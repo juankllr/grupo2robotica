@@ -46,11 +46,11 @@ void SpecificWorker::compute( )
 		{
 			if (i.dist < 100)
 			{
-				break;
+				qDebug() << "Datos laser: " << i.dist << i.angle;
+				//differentialrobot_proxy->setSpeedBase(0,0);
+				differentialrobot_proxy->stopBase();
 			}
 		}
-		differentialrobot_proxy->setSpeedBase(0,0);
-
 	} catch (const Ice::Exception &ex) 
 	{
 		std::cout << ex << std::endl;
