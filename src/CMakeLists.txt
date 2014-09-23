@@ -30,7 +30,7 @@ SET ( HEADERS
 )
 #ROBOCOMP
 ROBOCOMP_INITIALIZE( $ENV{ROBOCOMP}/ )
-ROBOCOMP_WRAP_ICE( CommonBehavior  )
+ROBOCOMP_WRAP_ICE( CommonBehavior  Laser  DifferentialRobot)
 SET (EXECUTABLE_OUTPUT_PATH ../bin)
 
 # Qt4

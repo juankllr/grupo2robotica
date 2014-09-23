@@ -180,6 +180,54 @@ CommonBehavior.cpp.s:
 	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/CommonBehavior.cpp.s
 .PHONY : CommonBehavior.cpp.s
 
+DifferentialRobot.o: DifferentialRobot.cpp.o
+.PHONY : DifferentialRobot.o
+
+# target to build an object file
+DifferentialRobot.cpp.o:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.o
+.PHONY : DifferentialRobot.cpp.o
+
+DifferentialRobot.i: DifferentialRobot.cpp.i
+.PHONY : DifferentialRobot.i
+
+# target to preprocess a source file
+DifferentialRobot.cpp.i:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.i
+.PHONY : DifferentialRobot.cpp.i
+
+DifferentialRobot.s: DifferentialRobot.cpp.s
+.PHONY : DifferentialRobot.s
+
+# target to generate assembly for a file
+DifferentialRobot.cpp.s:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.s
+.PHONY : DifferentialRobot.cpp.s
+
+Laser.o: Laser.cpp.o
+.PHONY : Laser.o
+
+# target to build an object file
+Laser.cpp.o:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/Laser.cpp.o
+.PHONY : Laser.cpp.o
+
+Laser.i: Laser.cpp.i
+.PHONY : Laser.i
+
+# target to preprocess a source file
+Laser.cpp.i:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/Laser.cpp.i
+.PHONY : Laser.cpp.i
+
+Laser.s: Laser.cpp.s
+.PHONY : Laser.s
+
+# target to generate assembly for a file
+Laser.cpp.s:
+	cd /home/salabeta/robocomp/components/grupo2robotica/navegacion && $(MAKE) -f src/CMakeFiles/navegacioncomp.dir/build.make src/CMakeFiles/navegacioncomp.dir/Laser.cpp.s
+.PHONY : Laser.cpp.s
+
 commonbehaviorI.o: commonbehaviorI.cpp.o
 .PHONY : commonbehaviorI.o
 
@@ -508,6 +556,12 @@ help:
 	@echo "... CommonBehavior.o"
 	@echo "... CommonBehavior.i"
 	@echo "... CommonBehavior.s"
+	@echo "... DifferentialRobot.o"
+	@echo "... DifferentialRobot.i"
+	@echo "... DifferentialRobot.s"
+	@echo "... Laser.o"
+	@echo "... Laser.i"
+	@echo "... Laser.s"
 	@echo "... commonbehaviorI.o"
 	@echo "... commonbehaviorI.i"
 	@echo "... commonbehaviorI.s"

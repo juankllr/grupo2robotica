@@ -79,6 +79,8 @@
 
 // Includes for remote proxy example
 // #include <Remote.h>
+#include <Laser.h>
+#include <DifferentialRobot.h>
 
 
 // User includes here
@@ -86,6 +88,8 @@
 // Namespaces
 using namespace std;
 using namespace RoboCompCommonBehavior;
+using namespace RoboCompLaser;
+using namespace RoboCompDifferentialRobot;
 
 
 class navegacionComp : public RoboComp::Application
@@ -118,7 +122,9 @@ int navegacionComp::run(int argc, char* argv[])
 
 	// Remote server proxy access example
 	// RemoteComponentPrx remotecomponent_proxy;
-	
+	LaserPrx laser_proxy;
+DifferentialRobotPrx differentialrobot_proxy;
+
 
 	string proxy;
 
@@ -145,7 +151,29 @@ int navegacionComp::run(int argc, char* argv[])
 	//}
 	//rInfo("RemoteProxy initialized Ok!");
 	// 	// Now you can use remote server proxy (remotecomponent_proxy) as local object
-	
+	//Remote server proxy creation example
+	try
+	{
+		laser_proxy = LaserPrx::uncheckedCast( communicator()->stringToProxy( getProxyString("LaserProxy") ) );
+	}
+	catch(const Ice::Exception& ex)
+	{
+		cout << "[" << PROGRAM_NAME << "]: Exception: " << ex;
+		return EXIT_FAILURE;
+	}
+	rInfo("LaserProxy initialized Ok!");
+	mprx["LaserProxy"] = (::IceProxy::Ice::Object*)(&laser_proxy);//Remote server proxy creation example
+	try
+	{
+		differentialrobot_proxy = DifferentialRobotPrx::uncheckedCast( communicator()->stringToProxy( getProxyString("DifferentialRobotProxy") ) );
+	}
+	catch(const Ice::Exception& ex)
+	{
+		cout << "[" << PROGRAM_NAME << "]: Exception: " << ex;
+		return EXIT_FAILURE;
+	}
+	rInfo("DifferentialRobotProxy initialized Ok!");
+	mprx["DifferentialRobotProxy"] = (::IceProxy::Ice::Object*)(&differentialrobot_proxy);
 	
 	GenericWorker *worker = new SpecificWorker(mprx);
 	//Monitor thread

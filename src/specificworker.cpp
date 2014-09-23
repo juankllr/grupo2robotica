@@ -37,10 +37,24 @@ SpecificWorker::~SpecificWorker()
 }
 void SpecificWorker::compute( )
 {
-	qDebug() << " hola" ;
-	
-	
-	
+	TLaserData laser_data = laser_proxy->getLaserData();
+	//for(auto i:laser_data)	
+	//	qDebug() << "Datos laser: " << i.dist << i.angle;
+	try 
+	{
+		for(auto i:laser_data)
+		{
+			if (i.dist < 100)
+			{
+				break;
+			}
+		}
+		differentialrobot_proxy->setSpeedBase(0,0);
+
+	} catch (const Ice::Exception &ex) 
+	{
+		std::cout << ex << std::endl;
+	}
 }
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {

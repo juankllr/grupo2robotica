@@ -4,6 +4,13 @@
 src/CMakeFiles/navegacioncomp.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
 src/CMakeFiles/navegacioncomp.dir/CommonBehavior.cpp.o: src/CommonBehavior.h
 
+src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.cpp
+src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.h
+
+src/CMakeFiles/navegacioncomp.dir/Laser.cpp.o: src/Laser.cpp
+src/CMakeFiles/navegacioncomp.dir/Laser.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/Laser.cpp.o: src/Laser.h
+
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.h
@@ -429,6 +436,8 @@ src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: /usr/include/qt4/QtGui/
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o: src/config.h
 
 src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -856,6 +865,8 @@ src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: /usr/include/qt4/QtGui/q
 src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: src/config.h
@@ -1281,6 +1292,8 @@ src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: /usr/include/qt4/QtGui/qw
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
 src/CMakeFiles/navegacioncomp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -2057,6 +2070,8 @@ src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: /usr/include/qt4/Qt
 src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o: src/config.h
 
 src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -2484,6 +2499,8 @@ src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: /usr/include/qt4/QtG
 src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: src/config.h
@@ -2909,6 +2926,8 @@ src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: /usr/include/qt4/QtGu
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: src/config.h
@@ -3336,6 +3355,8 @@ src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: /usr/include/qt4/Qt
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/moc_specificworker.cxx
@@ -3760,6 +3781,8 @@ src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: /usr/include/qt4/QtG
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/config.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o: src/genericworker.h
 
@@ -4192,6 +4215,8 @@ src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: /usr/include/qt4/QtGui/q
 src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: src/config.h
@@ -4619,6 +4644,8 @@ src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: /usr/include/qt4/QtGui/
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o: src/Laser.h
 
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/specificworker.cpp
@@ -5043,6 +5070,8 @@ src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: /usr/include/qt4/QtGui/q
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/CommonBehavior.h
+src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/DifferentialRobot.h
+src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/config.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o: src/genericworker.h
 

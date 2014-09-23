@@ -22,6 +22,8 @@
 */
 GenericWorker::GenericWorker(MapPrx& mprx, QObject *parent) : QObject(parent)
 {
+	laser_proxy = (*(LaserPrx*)mprx["LaserProxy"]);
+	differentialrobot_proxy = (*(DifferentialRobotPrx*)mprx["DifferentialRobotProxy"]);
 
 	mutex = new QMutex();
 	Period = BASIC_PERIOD;
