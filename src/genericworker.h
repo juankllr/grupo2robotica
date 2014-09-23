@@ -25,8 +25,6 @@
 #include <stdint.h>
 #include <qlog/qlog.h>
 #include <CommonBehavior.h>
-#include <Laser.h>
-#include <DifferentialRobot.h>
 
 #define CHECK_PERIOD 5000
 #define BASIC_PERIOD 100
@@ -39,8 +37,6 @@ using namespace std;
        \brief
        @author authorname
 */
-using namespace RoboCompLaser;
-using namespace RoboCompDifferentialRobot;
 
 class GenericWorker : public QObject
 {
@@ -54,8 +50,6 @@ public:
 	virtual bool setParams(RoboCompCommonBehavior::ParameterList params) = 0;
 	QMutex *mutex;                //Shared mutex with servant
 
-	LaserPrx laser_proxy;
-	DifferentialRobotPrx differentialrobot_proxy;
 protected:
 	QTimer timer;
 	int Period;

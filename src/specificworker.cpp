@@ -18,6 +18,7 @@
  */
  
  #include "specificworker.h"
+#include <qt4/QtCore/qdebug.h>
 
 /**
 * \brief Default constructor
@@ -36,6 +37,10 @@ SpecificWorker::~SpecificWorker()
 }
 void SpecificWorker::compute( )
 {
+	qDebug() << " hola" ;
+	
+	
+	
 }
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {

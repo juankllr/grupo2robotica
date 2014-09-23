@@ -1,0 +1,6 @@
+Component navegacionComp{
+	Communications{
+
+	};
+	language Cpp;
+};

@@ -4,13 +4,6 @@
 src/CMakeFiles/navegacioncomp.dir/CommonBehavior.cpp.o
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/CommonBehavior.cpp
  src/CommonBehavior.h
-src/CMakeFiles/navegacioncomp.dir/DifferentialRobot.cpp.o
- /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/DifferentialRobot.cpp
- src/DifferentialRobot.h
-src/CMakeFiles/navegacioncomp.dir/Laser.cpp.o
- /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/Laser.cpp
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/commonbehaviorI.cpp
@@ -437,8 +430,6 @@ src/CMakeFiles/navegacioncomp.dir/commonbehaviorI.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
  src/config.h
 src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -866,8 +857,6 @@ src/CMakeFiles/navegacioncomp.dir/genericmonitor.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/config.h
@@ -1293,8 +1282,6 @@ src/CMakeFiles/navegacioncomp.dir/genericworker.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.cpp
  /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -2071,8 +2058,6 @@ src/CMakeFiles/navegacioncomp.dir/moc_commonbehaviorI.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
  src/config.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -2500,8 +2485,6 @@ src/CMakeFiles/navegacioncomp.dir/moc_genericmonitor.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/config.h
@@ -2927,8 +2910,6 @@ src/CMakeFiles/navegacioncomp.dir/moc_genericworker.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/config.h
@@ -3356,8 +3337,6 @@ src/CMakeFiles/navegacioncomp.dir/moc_specificmonitor.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/moc_specificworker.cxx
@@ -3782,8 +3761,6 @@ src/CMakeFiles/navegacioncomp.dir/moc_specificworker.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
  src/config.h
  src/genericworker.h
 src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o
@@ -4216,8 +4193,6 @@ src/CMakeFiles/navegacioncomp.dir/navegacioncomp.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/config.h
@@ -4645,8 +4620,6 @@ src/CMakeFiles/navegacioncomp.dir/specificmonitor.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
 src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificworker.cpp
@@ -5071,7 +5044,5 @@ src/CMakeFiles/navegacioncomp.dir/specificworker.cpp.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  src/CommonBehavior.h
- src/DifferentialRobot.h
- src/Laser.h
  src/config.h
  src/genericworker.h

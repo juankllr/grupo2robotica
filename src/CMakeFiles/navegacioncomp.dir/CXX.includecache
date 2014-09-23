@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/salabeta/robocomp/classes/qlog/qlog.cpp
-qlog.h
-/home/salabeta/robocomp/classes/qlog/qlog.h
-
 /home/salabeta/robocomp/classes/qlog/qlog.h
 QtCore
 -
@@ -17,10 +13,6 @@ iostream
 -
 Logger.h
 -
-
-/home/salabeta/robocomp/classes/rapplication/rapplication.cpp
-rapplication.h
-/home/salabeta/robocomp/classes/rapplication/rapplication.h
 
 /home/salabeta/robocomp/classes/rapplication/rapplication.h
 Ice/Ice.h
@@ -34,34 +26,6 @@ QtCore
 
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/CommonBehavior.cpp
 CommonBehavior.h
--
-Ice/LocalException.h
--
-Ice/ObjectFactory.h
--
-Ice/BasicStream.h
--
-Ice/Object.h
--
-IceUtil/Iterator.h
--
-
-/home/salabeta/robocomp/components/grupo2robotica/navegacion/src/DifferentialRobot.cpp
-DifferentialRobot.h
--
-Ice/LocalException.h
--
-Ice/ObjectFactory.h
--
-Ice/BasicStream.h
--
-Ice/Object.h
--
-IceUtil/Iterator.h
--
-
-/home/salabeta/robocomp/components/grupo2robotica/navegacion/src/Laser.cpp
-Laser.h
 -
 Ice/LocalException.h
 -
@@ -127,10 +91,6 @@ qlog/qlog.h
 -
 CommonBehavior.h
 -
-Laser.h
--
-DifferentialRobot.h
--
 
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/moc_commonbehaviorI.cxx
 commonbehaviorI.h
@@ -177,10 +137,6 @@ specificmonitor.h
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificmonitor.h
 commonbehaviorI.h
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/commonbehaviorI.h
-Laser.h
--
-DifferentialRobot.h
--
 
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificmonitor.cpp
 specificmonitor.h
@@ -193,6 +149,8 @@ genericmonitor.h
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificworker.cpp
 specificworker.h
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificworker.h
+qt4/QtCore/qdebug.h
+-
 
 /home/salabeta/robocomp/components/grupo2robotica/navegacion/src/specificworker.h
 genericworker.h
@@ -3998,76 +3956,6 @@ Ice/StreamF.h
 Ice/UndefSysMacros.h
 -
 
-src/DifferentialRobot.h
-Ice/ProxyF.h
--
-Ice/ObjectF.h
--
-Ice/Exception.h
--
-Ice/LocalObject.h
--
-Ice/StreamHelpers.h
--
-Ice/Proxy.h
--
-Ice/Object.h
--
-Ice/Outgoing.h
--
-Ice/OutgoingAsync.h
--
-Ice/Incoming.h
--
-Ice/Direct.h
--
-Ice/FactoryTableInit.h
--
-IceUtil/ScopedArray.h
--
-IceUtil/Optional.h
--
-Ice/StreamF.h
--
-Ice/UndefSysMacros.h
--
-
-src/Laser.h
-Ice/ProxyF.h
--
-Ice/ObjectF.h
--
-Ice/Exception.h
--
-Ice/LocalObject.h
--
-Ice/StreamHelpers.h
--
-Ice/Proxy.h
--
-Ice/Object.h
--
-Ice/Outgoing.h
--
-Ice/OutgoingAsync.h
--
-Ice/Incoming.h
--
-Ice/Direct.h
--
-Ice/FactoryTableInit.h
--
-IceUtil/ScopedArray.h
--
-IceUtil/Optional.h
--
-Ice/StreamF.h
--
-DifferentialRobot.h
--
-Ice/UndefSysMacros.h
--
-
 src/config.h
 
 src/genericworker.h
@@ -4080,9 +3968,5 @@ stdint.h
 qlog/qlog.h
 -
 CommonBehavior.h
--
-Laser.h
--
-DifferentialRobot.h
 -
 
